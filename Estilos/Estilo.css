@@ -1,0 +1,71 @@
+body{
+background-color: rgb(68, 0, 255);
+}
+
+header{
+    background-color: blueviolet;
+height: 250px;
+display: flex;
+}
+
+.imgdivencabezado{
+    background-color: rgb(255, 238, 0);
+width: 40%;
+height: 100%;
+}
+
+.txtdivencabezado{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.377);
+    width: 80%;
+    height: 100%;
+}
+nav{
+    background-color: brown;
+    height: 50px;
+}
+
+
+.h1titulo{
+        text-align: center;
+        font-size: 4rem;
+}
+
+.txtproyecto{
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.carruselmain{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#carouselExampleCaptions{
+    display: flex;
+    width: 100% ;
+    max-width: 900px;
+}
+
+.carousel-inner{
+    height: 800px;
+    border-radius: 20px;
+}
+
+.carousel-item{
+    height: 100%;
+}
+
+p{
+    text-align: justify;
+}
+
+.textopie{
+    text-align: center;
+}
